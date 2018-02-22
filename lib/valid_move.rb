@@ -3,9 +3,7 @@ def valid_move(board,move)
   if move<0 || move>8 || position_taken[move]
     return false
   end
-else
-  return true
-end
+return true
 end
 
 
@@ -14,7 +12,5 @@ def position_taken(board,move)
   if board[move]!=" "
     return false
   end
-else
-  return true
-end
+return true
 end
